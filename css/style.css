@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 480px) {
+	.img1, .img2, .img3 {
+		background-attachment: scroll !important;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.img1, .img2, .img3 {
+		background-attachment: fixed !important;
+	}
+}
+
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+#welcome_sign {
+	font-family: "Roboto", san-serif;
+	font-weight: 500;
+	font-size: 7.5em;
+	text-align: center;
+	color: white;
+
+	position: relative;
+	top: 25%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.img1, .img2, .img3 {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img1 {
+	background-image: url("../img/mountain.jpg");
+	height: 100vh;
+}
+
+.img2 {
+	background-image: url("../img/mountain1.jpg");
+	min-height: 500px;
+}
+
+.img3 {
+	background-image: url("../img/mountain2.jpg");
+	min-height: 500px;
+}
+
+.section {
+	text-align: center;
+	padding: 100px 5em;
+}
+
+.section_title{
+	font-size: 3em;
+	font-family: "Roboto";
+	font-weight: 300;
+	margin-top: -25px;
+	margin-bottom: 13px;
+}
+
+p {
+	font-family: "open sans";
+	font-size: 16px;
+	margin: 0;
+}
